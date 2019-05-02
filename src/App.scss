@@ -1,0 +1,20 @@
+.container{
+  margin: 0 auto;
+  padding: 0 25px;
+  max-width: 1230px;
+}
+
+.gallery{
+  display: grid;  
+  grid-gap: 20px;
+  @media (min-width: 639px){
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (min-width: 1199px){
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }  
+}
+.spinner{
+  padding: 100px 0;
+  margin-left: calc(50% - 25px);  
+}
